@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-export const socket = io("http://localhost:5000", {
+export const socket = io("https://goofycall.onrender.com/", {
   transports: ["websocket"],
   autoConnect: true, // IMPORTANT: keep it true for simple flow
 });
